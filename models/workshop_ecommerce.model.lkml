@@ -17,7 +17,7 @@ explore: ecommerce_sales {
   join: ecommerce_items{
     type: left_outer
     relationship: one_to_many
-    sql_on: ${ecommerce_sales.user_id} = ${ecommerce_items.item_id} ;;
+    sql_on: ${ecommerce_sales.items} = ${ecommerce_items.item_id} ;;
   }
 
   join: ecommerce_users {
@@ -29,7 +29,7 @@ explore: ecommerce_sales {
   join: ecommerce_store {
     type: left_outer
     relationship: one_to_many
-    sql_on: ${ecommerce_sales.user_id} = ${ecommerce_store.store_id} ;;
+    sql_on: ${ecommerce_sales.store_id} = ${ecommerce_store.store_id} ;;
   }
 
   join: ga4_ecommerce_users {
