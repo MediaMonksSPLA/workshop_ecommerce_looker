@@ -9,12 +9,15 @@
     "GA4_CONNECTION": {
       "label": "Connection Name",
       "value_constraint": "connection"
+      "export": "override_required"
     },
     "GA4_SCHEMA": {
       "label": "GA4 Schema"
+      "export": "override_required"
     },
     "GA4_TABLE_VARIABLE": {
         "label": "GA4 Table Variable"
+        "export": "override_required"
     }
   },
   "models": [
