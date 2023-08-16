@@ -1,7 +1,7 @@
 connection: "workshop_ecommerce"
 
 # include all the views
-include: "/views/**/*.view.lkml"
+include: "/views2/**/*.view.lkml"
 
 datagroup: workshop_ecommerce_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
