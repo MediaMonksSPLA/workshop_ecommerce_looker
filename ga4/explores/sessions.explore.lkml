@@ -1,6 +1,9 @@
+connection: "workshop_ecommerce"
+
 include: "/ga4/views/*.view.lkml"
 include: "/ga4/views/*/*.view.lkml"
 include: "/ga4/attributes/*.lkml"
+
 
 explore: sessions {
   label: "GA4 Sessions - E-Commerce Workshop "

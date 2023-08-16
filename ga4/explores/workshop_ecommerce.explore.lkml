@@ -1,4 +1,4 @@
-connection: "workshop_ecommerce"
+#connection: "workshop_ecommerce"
 
 # include all the views
 include: "/views2/**/*.view.lkml"
