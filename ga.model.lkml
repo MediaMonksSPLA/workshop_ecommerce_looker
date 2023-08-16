@@ -1,4 +1,4 @@
-connection: "workshop_ecommerce"
+connection: "@{GA4_CONNECTION}"
 
 label: "GA4 Sessions - Ecommerce Workshop"
 
