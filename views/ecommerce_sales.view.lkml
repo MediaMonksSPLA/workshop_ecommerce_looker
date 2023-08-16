@@ -1,13 +1,8 @@
 view: ecommerce_sales {
-<<<<<<< HEAD
+
   sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_sales` ;;
-=======
-<<<<<<< HEAD
-  sql_table_name: `ecommerce_looker_workshop.ecommerce_sales` ;;
-=======
-  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_sales` ;;
->>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
->>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
+
+  #sql_table_name: `ecommerce_looker_workshop.ecommerce_sales` ;;
 
   dimension_group: _partitiondate {
     type: time
