@@ -1,5 +1,13 @@
 view: ecommerce_items {
+<<<<<<< HEAD
   sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_items` ;;
+=======
+<<<<<<< HEAD
+  sql_table_name: `ecommerce_looker_workshop.ecommerce_items` ;;
+=======
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_items` ;;
+>>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
+>>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
 
   dimension: color {
     type: string

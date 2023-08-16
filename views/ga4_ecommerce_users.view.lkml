@@ -1,5 +1,13 @@
 view: ga4_ecommerce_users {
+<<<<<<< HEAD
   sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ga4_ecommerce_users` ;;
+=======
+<<<<<<< HEAD
+  sql_table_name: `ecommerce_looker_workshop.ga4_ecommerce_users` ;;
+=======
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ga4_ecommerce_users` ;;
+>>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
+>>>>>>> branch 'master' of https://github.com/MediaMonksSPLA/workshop_ecommerce_looker
 
   dimension_group: _partitiondate {
     type: time
