@@ -1,5 +1,7 @@
 include: "/ga4/views/event_data_dimensions/event_funnel.view"
 include: "/ga4/views/event_data_dimensions/page_funnel.view"
+include: "/ga4/views/*/*.view"
+include: "/ga4/views/*.view"
 
 view: sessions {
   derived_table: {
