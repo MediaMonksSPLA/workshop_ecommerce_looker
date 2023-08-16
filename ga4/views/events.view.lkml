@@ -8,7 +8,7 @@
 ##   - page_data
 ##   - event_path
 
-include: "event_data_dimensions/*.view"
+include: "/ga4/views/event_data_dimensions/*.view"
 
 view: events {
   extends: [event_data_event_params, event_data_user_properties, goals, page_data, event_path]
