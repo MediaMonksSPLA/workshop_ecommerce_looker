@@ -7,7 +7,7 @@ constant: GA4_CONNECTION {
 }
 
 constant: GA4_SCHEMA {
-  value: "mm-latam-growth-demos.ecommerce_looker_workshop"
+  value: "ecommerce_looker_workshop"
   export: override_optional
 }
 
