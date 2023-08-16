@@ -1,5 +1,8 @@
 view: ga4_ecommerce_events {
-  sql_table_name: `ecommerce_looker_workshop.ga4_ecommerce_events` ;;
+
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ga4_ecommerce_events` ;;
+
+#  sql_table_name: `ecommerce_looker_workshop.ga4_ecommerce_events` ;;
 
   dimension_group: dates {
     type: time

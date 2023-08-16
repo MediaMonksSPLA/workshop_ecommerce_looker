@@ -1,5 +1,7 @@
 view: ecommerce_store {
-  sql_table_name: `ecommerce_looker_workshop.ecommerce_store` ;;
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_store` ;;
+
+ # sql_table_name: `ecommerce_looker_workshop.ecommerce_store` ;;
 
   dimension: address {
     type: string

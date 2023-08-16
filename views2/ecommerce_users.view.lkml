@@ -1,5 +1,7 @@
 view: ecommerce_users {
-  sql_table_name: `ecommerce_looker_workshop.ecommerce_users` ;;
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_users` ;;
+
+  #sql_table_name: `ecommerce_looker_workshop.ecommerce_users` ;;
 
   dimension_group: _partitiondate {
     type: time

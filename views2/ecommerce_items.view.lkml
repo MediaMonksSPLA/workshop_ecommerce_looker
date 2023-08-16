@@ -1,5 +1,10 @@
 view: ecommerce_items {
-  sql_table_name: `ecommerce_looker_workshop.ecommerce_items` ;;
+
+  sql_table_name: `mm-latam-growth-demos.ecommerce_looker_workshop.ecommerce_items` ;;
+
+#  sql_table_name: `ecommerce_looker_workshop.ecommerce_items` ;;
+
+
 
   dimension: color {
     type: string
