@@ -1,3 +1,5 @@
+
+
 ## Connection Constants:
 constant: GA4_CONNECTION {
   value: "workshop_ecommerce"
@@ -5,7 +7,7 @@ constant: GA4_CONNECTION {
 }
 
 constant: GA4_SCHEMA {
-  value: "ecommerce_looker_workshop.ecommerce_looker_workshop"
+  value: "mm-latam-growth-demos.ecommerce_looker_workshop"
   export: override_optional
 }
 

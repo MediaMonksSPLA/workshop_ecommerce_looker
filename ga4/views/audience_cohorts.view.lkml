@@ -1,4 +1,6 @@
+
 include: "/ga4/views/sessions.view.lkml"
+
 
 view: audience_cohorts {
   derived_table: {
